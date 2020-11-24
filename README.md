@@ -5,8 +5,9 @@ Prerequisite software needs to be installed in the system: Node: v12.16.3 or lat
 Install the packages:
 
 Copy or git pull the "Transcriber" repository in the system. 
-Go to the "Cypress_TR_NewProject" repository and then run npm install. 
+Open the "Cypress_TR_NewProject" repository in the visual studio.
 Open the terminal window in the visual studio. 
+Go to the "Cypress_TR_NewProject" repository and then run the "npm install".("node_modules" folder created and install supported node packages).
 run the "npm run test" to execute the script.
 
 HTML file output is generated in the cypress/reports/mochareports folder. 
