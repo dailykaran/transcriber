@@ -1,0 +1,27 @@
+{
+    "chromeWebSecurity": false,
+    
+    
+    "baseUrl" : "https://app-qa.siltranscriber.org", 
+    "env": {
+        "teamPage": "/team",
+        "loadingPage": "/loading",
+        "planPage": "/plan",
+        "workPage": "/work"
+
+    },
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true,
+            "code": false,
+            "timestamp": "mmddyyyy_HHMMss"
+        }
+    }  
+ 
+}
